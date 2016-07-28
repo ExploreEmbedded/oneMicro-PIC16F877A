@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name logo)(type KiCad)(uri "\\\\Pc\\h\\PCB_Designes\\LPC1768 Stick1\\lib_new\\logo.pretty")(options "")(descr ""))
+  (lib (name EE)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick1\\lib_new\\ExploreEmbedded.pretty-master")(options "")(descr ""))
+  (lib (name Logo_new)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick1\\lib_new\\New_Logo.pretty")(options "")(descr ""))
+)
