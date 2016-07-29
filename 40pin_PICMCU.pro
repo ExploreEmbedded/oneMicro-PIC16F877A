@@ -1,4 +1,4 @@
-update=7/27/2016 5:00:29 PM
+update=7/29/2016 6:23:06 PM
 version=1
 last_client=kicad
 [general]
@@ -84,3 +84,4 @@ LibName30=valves
 LibName31=I:/PCB_Designes/Devolopment Boards/PRO PIC WITH USB/Pro-pic-cache
 LibName32=C:/Users/desktop/Desktop/w_microcontrollers
 LibName33=C:/Users/desktop/Desktop/16f
+LibName34=H:/PCB_Designes/Devolopment Boards/Starter_AVR_USB_V1/Starter_AVR_USB/Starter_AVR-cache
