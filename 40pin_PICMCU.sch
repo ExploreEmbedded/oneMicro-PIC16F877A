@@ -798,8 +798,6 @@ F 3 "" H 6650 3800 60  0000 C CNN
 	1    6650 3800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6300 3450
-NoConn ~ 6300 3350
 NoConn ~ 5950 3050
 NoConn ~ 5950 3150
 NoConn ~ 5950 3250
@@ -1104,10 +1102,6 @@ Wire Wire Line
 	2550 6350 2050 6350
 Wire Wire Line
 	2050 6450 2550 6450
-Wire Wire Line
-	2550 6550 2050 6550
-Wire Wire Line
-	2050 6550 2050 6650
 $Comp
 L GND #PWR3
 U 1 1 579B58DB
@@ -1119,9 +1113,6 @@ F 3 "" H 2300 6600 60  0001 C CNN
 	1    2300 6600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 6600 2300 6550
-Connection ~ 2300 6550
 $Comp
 L C C6
 U 1 1 579B5C32
@@ -1206,14 +1197,14 @@ NoConn ~ 4400 5550
 NoConn ~ 4900 6050
 NoConn ~ 4900 6150
 NoConn ~ 4900 6550
-Text Label 4900 6250 0    60   ~ 0
+Text Label 5500 6250 0    60   ~ 0
 TX
 $Comp
 L R R4
 U 1 1 579B693F
 P 5300 6350
 F 0 "R4" V 5380 6350 50  0000 C CNN
-F 1 "R" V 5307 6351 50  0000 C CNN
+F 1 "470r" V 5307 6351 50  0000 C CNN
 F 2 "" V 5230 6350 30  0000 C CNN
 F 3 "" H 5300 6350 30  0000 C CNN
 	1    5300 6350
@@ -1291,4 +1282,39 @@ NoConn ~ 8050 3800
 NoConn ~ 8050 4400
 NoConn ~ 7300 3800
 NoConn ~ 7300 4400
+NoConn ~ 2050 6550
+Wire Wire Line
+	2050 6650 2200 6650
+Wire Wire Line
+	2200 6650 2200 6550
+Wire Wire Line
+	2200 6550 2550 6550
+Wire Wire Line
+	2300 6600 2300 6550
+Connection ~ 2300 6550
+Text Notes 7700 3250 0    60   ~ 0
+Logo
+Text Notes 7600 3550 0    60   ~ 0
+Mounting Holes
+Text Label 3250 4000 0    60   ~ 0
+SCL
+Text Label 3250 4100 0    60   ~ 0
+SDA
+Text Label 6300 3350 2    60   ~ 0
+SCL
+Text Label 6300 3450 2    60   ~ 0
+SDA
+$Comp
+L R R5
+U 1 1 579C5043
+P 5250 6250
+F 0 "R5" V 5150 6250 50  0000 C CNN
+F 1 "470r" V 5257 6251 50  0000 C CNN
+F 2 "" V 5180 6250 30  0000 C CNN
+F 3 "" H 5250 6250 30  0000 C CNN
+	1    5250 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 6250 5000 6250
 $EndSCHEMATC
