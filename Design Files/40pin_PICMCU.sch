@@ -87,8 +87,6 @@ F 3 "" H 1350 2900 60  0001 C CNN
 	1    1350 2900
 	1    0    0    1   
 $EndComp
-Text Label 1650 3200 0    40   ~ 0
-MCLR
 Text Label 1350 2650 0    60   ~ 0
 +5V
 $Comp
@@ -781,10 +779,6 @@ Text Label 3850 2600 2    60   ~ 0
 RE2
 Text Label 3250 3500 0    60   ~ 0
 RE2
-Text Label 3850 1600 2    40   ~ 0
-RST
-Text Label 3250 3600 0    40   ~ 0
-RST
 $Comp
 L CONN_10 P4
 U 1 1 5799B52E
@@ -1315,4 +1309,10 @@ F 3 "" H 5250 6250 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	4900 6250 5000 6250
+Text Label 1650 3200 0    40   ~ 0
+MCLR
+Text Label 3250 3600 0    40   ~ 0
+MCLR
+Text Label 3850 1600 2    40   ~ 0
+MCLR
 $EndSCHEMATC
