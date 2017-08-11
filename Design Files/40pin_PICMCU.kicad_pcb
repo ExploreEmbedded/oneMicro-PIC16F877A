@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
     (links 84)
     (no_connects 0)
     (area 126.949999 84.404999 152.450001 147.370001)
     (thickness 1.6)
-    (drawings 94)
+    (drawings 95)
     (tracks 643)
     (zones 0)
     (modules 29)
@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.254)
     (user_trace_width 0.3048)
     (user_trace_width 0.381)
     (user_trace_width 0.4572)
@@ -72,9 +72,9 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFEFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x000f0_80000001)
       (usegerberextensions true)
-      (excludeedgelayer true)
+      (excludeedgelayer false)
       (linewidth 0.150000)
       (plotframeref false)
       (viasonmask false)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber Data/"))
   )
 
   (net 0 "")
@@ -1365,6 +1365,9 @@
     )
   )
 
+  (gr_text v1.0 (at 139.68984 86.80704) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 131.699 94.107) (end 131.318 93.726) (angle 90) (layer B.SilkS) (width 0.2286))
   (gr_line (start 131.699 100.33) (end 131.699 94.107) (angle 90) (layer B.SilkS) (width 0.2286))
   (gr_line (start 131.318 100.711) (end 131.699 100.33) (angle 90) (layer B.SilkS) (width 0.2286))
